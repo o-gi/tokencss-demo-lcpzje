@@ -1,0 +1,30 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: sans;
+}
+
+body {
+  background: black.0;
+  min-height: screen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Added Classes */
+.box {
+  padding: md 2xl;
+}
+.leading-gradient-text {
+  font-size: 5xl;
+  background: linear-gradient(220.55deg, #9f25ff 0%, #ff7a00 100%);
+  line-height: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
